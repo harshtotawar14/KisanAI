@@ -1,0 +1,76 @@
+.sidebar {
+    background-color: white;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: transparent;
+    border-radius: solid 0.5px rgba(255,255,255, 0.5);
+    cursor: pointer;
+}
+
+.logo {
+   font-size: larger;
+   color: black;
+}
+
+button span {
+    font-size: 20px;
+
+}
+
+button span i{
+    color: black;
+}
+
+button:hover{
+    background-color: rgba(240, 214, 214, 0.2)
+} 
+
+.history {
+    margin: 10px;
+    padding: 10px;
+    height: 100%;
+
+}
+
+.history li {
+    list-style-type:  none ;
+    cursor: pointer;
+    padding: 2px 5px;
+    margin-bottom: 0.3rem;
+    font-size: 14px;
+    border: solid 10px transparent;
+    color: black;
+    position: relative;
+
+}
+
+.history li:hover{
+    background-color: rgba(240, 214, 214, 0.2);
+    border-radius: 10px;
+}
+
+.sign{
+    padding: 10px;
+    margin: 10px;
+    font-size: 14px;
+    text-align: center;
+    border-top: solid 0.25px rgba(0, 0, 0);
+    color: black;
+
+}
+
+body{
+    overflow: hidden;
+}
